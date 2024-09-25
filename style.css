@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(63, 75, 75);
+}
+h1 {
+  color: #ff0000;
+  background-color: rgb(255, 215, 0);
+  width: 600px;
+  padding: 12px;
+}
+
+p {
+  width: 600px;
+  font-size: 14px;
+  color: gold;
+  padding: 12px;
+  border: 2px white dotted;
+  margin: 0;
+}
+/* ein Kommentar mit Slash und Sternchen */
+a {
+  /* Der Link soll:display: display:
+    - nicht unterstrichen
+    - HG blau
+    - Schriftfarbe blau
+    */
+  color: white;
+  background: blue;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+}
+Body {
+  margin: 0;
+}
+/* Responsive */
+img {
+  width: 600px;
+  margin: 4%;
+}
+
+/* eine ID wird immer mit Hashtag (#) angesteuert */
+#p1 {
+  background-color: deeppink;
+}
+
+/* eine Klasse (class) wird immer mit Punkt (.) angesteuert */
+.greenp {
+  background-color: chartreuse;
+  color: white;
+}
